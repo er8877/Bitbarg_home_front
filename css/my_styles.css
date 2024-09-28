@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'iran_sans';
+    src: url('../fonts/IRANSansLight.woff');
+}
+
+.navbar-nav{
+    background-color: none;
+}
+
+.bg-body-tertiary{
+    text-align: right;
+    direction: rtl;
+}
+
+.nav-item{
+    font-family: 'iran_sans';
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.nav-item a{
+    padding: 10px 27px;
+}
+
+.navbar-nav{
+    margin-right: 170px;
+    margin-top: 6px;
+}
+
+
+.nav-item a:hover{
+    background-color: rgba(216, 216, 216, 0.2);
+    border-radius: 5px;
+}
+
+#sign_up_btn{
+    width: 155px;
+    padding: 8px 15px;
+    font-family: 'iran_sans';
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+#sign_up_btn:hover{
+    box-shadow: 0px 0px 3px 0 black;
+}
+
+
+#logo1{
+    padding-right: 10px;
+    margin:0 10px 0 195px;
+}
+
+
+#notify_icon{
+    padding: 0px 15px 0 10px;
+    height: 26px;
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+
+#main_section{
+    border: 1px solid rgb(228, 228, 228);
+    width:550px;
+    height: 50px;
+    margin-top:10px;
+    margin-left: 480px;
+}
+
+#work_navs .nav-item{
+    direction: rtl;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 0;
+    width: 80px;
+}
+
+#work_navs .nav-item a:hover{
+    border-bottom: 2px solid blue;
+    background-color: rgba(208, 232, 255, 0.5);
+    color: blue;
+    transition: 0.2s;
+}
+
+#work_navs{
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#header_navbar{
+    text-align: right;
+    direction: rtl;
+}
+
+#content_box{
+    width: 550px;
+    height: 450px;
+    margin-left: 480px;
+    font-family: 'iran_sans';
+}
+
+#arrow_down_img{
+    border: 1px solid rgb(213, 213, 213);
+    width: 35px;
+    left: 262px;
+    top: -10px;
+}
+
+.iran_avatar_img{
+    position: absolute;
+    top: 290px;
+    margin-left: 409px;
+    width: 40px;
+}
+
+#toman_symbol{
+    position: relative;
+    top: -45px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 365px;
+}
+
+#teter_avatar_img{
+    width: 40px;
+}
+
+#teter_symbol{
+    margin-right: 5px;
+    font-family: 'iran_sans';
+    font-weight: bold;
+}
+
+
+#currencies_dropdown{
+    margin-left: 354px;
+    position: absolute;
+    top: -50px;
+}
+
+#currency_buy_button{
+    text-align: center;
+    direction: rtl;
+    width: 503px;
+    height:43px;
+    margin-left: 37px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#footer_alert:hover{
+    background-color: #46ddff;
+    color: #0400ff;
+    cursor: pointer;
+}

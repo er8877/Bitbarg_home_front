@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بیت برگ</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/my_styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script  src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-white" id="header_navbar">
+        <div onmousemove="a()" id="a" class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>منو
+                </a>
+              </li>
+              <li class="nav-item text-dark">
+                <a class="nav-link" href="#">خانه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">قیمت لحظه ای</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">کارمزدها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">کیف پول</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="sign_up_btn">ورود یا ثبت نام</button>
+        
+        <div class="border-end border-dark" style="height: 26px;">
+            <i class="fas fa-bell" id="notify_icon"></i>
+        </div>
+
+        <a href="#">
+            <img src="./images/navbar-logo.jpeg" height="30px" alt="nav_logo" class="border-end border-dark" id="logo1">
+        </a>
+
+    </nav>
+
+    <div class="head_logo" style="text-align: center;">
+        <img src="./images/0J1mqRqAxztdEP890hundOgrTPEJKxusH1XpleIA.png" width="18%" alt="big_logo">
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-top" id="main_section">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav justify-content-end" id="work_navs">
+              <li class="nav-item">
+                <a class="nav-link rounded-0" href="#">خرید</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-0" href="#">فروش</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link rounded-0" href="#">تبدیل</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <div class="border border-top-0 mt-0 rounded-bottom pt-5" id="content_box">
+        <div class="row">
+            <div class="div_in col-12 bg-light ms-5 border border-light-subtle rounded-3" id="column_1" style="width: 480px;height:100px;">
+                <p class="mt-2" style="text-align: right;font-size:13px;">پرداخت کنید</p>
+
+                <h4 class="ms-2" style="font-weight: bold;">
+                    ۵۹,۵۰۰
+                </h4>
+
+                <img src="./images/irr.png" alt="iran_logo" class="iran_avatar_img"> 
+
+                <span id="toman_symbol">تومان</span>
+            </div>
+
+            <div class="position-relative">
+                <img src="./images/arrow_down.png" class="position-absolute rounded-circle bg-white"
+                    alt="arrow_down" id="arrow_down_img">
+            </div>
+
+            <div class="div_in col-12 bg-light mt-2 ms-5 border border-light-subtle rounded-3" id="column_2" style="width: 480px;height:100px;">
+                <p class="mt-2" style="text-align: right;font-size:13px;">دریافت کنید</p>
+                
+                <h4 class="ms-2" style="font-weight: bold;margin-top:5px;">
+                    ۱
+                </h4>
+
+                <div class="dropdown">
+                    <a class="btn btn-light dropdown-toggle" id="currencies_dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span id="teter_symbol">تتر</span>
+                        <img src="./images/3090befa-db39-4d65-be9c-805ca155560e.jpeg" alt="iran_logo" id="teter_avatar_img">
+                    </a>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mb-2" style="width: 530px;">
+            <div class="col-12 mt-2 mb-1 pt-2" id="currency_buy_button">
+                <button class="btn btn-primary w-100 pt-2" id="buy_button">خرید ارز</button>
+            </div>
+
+            <div class="col-3 mt-2" style="margin-left: 37px;">
+                <button class="btn btn-light text-primary border border-info rounded-1 ps-3 py-2" 
+                style="text-align: center;direction:rtl;font-weight:bold;font-size:13px;width:150px">
+                <i class="far fa-play-circle" style="color: #0d6efd;margin-left:7px;"></i>آموزش خرید
+                </button>
+            </div>
+
+            <div class="col-3 mt-2" style="margin-left: 33px;">
+                <button class="btn btn-light text-primary border border-info rounded-1 ps-3 py-2" 
+                style="text-align: center;direction:rtl;font-weight:bold;font-size:14px;width:150px">
+                <i class="far fa-chart-bar" style="color: #0d6efd;margin-left:7px"></i>تحلیل قیمت
+                </button>
+            </div>
+
+            <div class="col-3 mt-2" style="margin-left: 31px;">
+                <button class="btn btn-light text-primary border border-info rounded-1 ps-3 py-2" 
+                style="text-align: center;direction:rtl;font-weight:bold;font-size:14px;width:150px">
+                <i class="far fa-bell" style="color: #0d6efd;margin-left:7px"></i>گوش به زنگ
+                </button>
+            </div>
+        </div>
+
+        <div class="alert alert-info text-primary rounded-1" id="footer_alert"
+        style="width: 480px;margin-left:37px;direction:rtl;text-align:center" role="alert">
+            <i class="fas fa-chart-line" style="margin-left: 5px;"></i>
+            مقایسه ی قیمت خرید ارز در بیت برگ با سایر صرافی ها
+        </div>
+
+    </div>
+
+
+<script src="./js/main.js"></script>
+</body>
+</html>
